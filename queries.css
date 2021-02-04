@@ -1,0 +1,122 @@
+
+/*BIG TABLETS TO 1200PX (WIDTH SMALLER THAN 1140PX ROW)*/
+@media only screen and (max-width: 1200px){
+	/*HEADER*/
+	.barre-menu{
+		margin-left: -10rem;
+		margin-top: -3rem;
+	}
+	.header h3:after{
+		display: none;
+	}
+	/*LEFT PART*/
+	.gauche{
+		margin-top:5rem;
+	}
+	.voy{
+		padding-bottom: 0rem;
+	}
+	/*RIGHT PART*/
+	.titre-formation{
+		margin-top: 15rem;
+		margin-left:5rem ;
+		margin-right: none;
+	}
+	.forma-exp{
+		margin-left: 10%;
+		width: 45%;}
+	
+	.comp-div{
+		margin-top: 8rem;
+		
+	}
+	.realisations h2{
+		padding-top: 5rem;
+		background-color: none;
+	}
+	.img-centre{
+		margin-left: 10%;
+	}
+	/*FOOTER*/
+	form{
+		width: 1140px;
+	}
+	footer h2{
+		margin-left: 20%;
+	}
+	footer span{
+		margin-left: 0%;
+	}
+	input,
+textarea{
+	width: 15rem;
+	float: left;
+	margin-left: 1%;
+	
+}
+.btn{
+	margin-top: 2rem;
+	margin-left: -1rem;
+}
+}
+
+/*SMALL TABLETS TO BIG TABLETS FROM 768PX TO 1023PX*/
+@media only screen and (max-width: 1023px){
+	body hr{
+		display: none;
+	}
+	
+	.titre-formation{
+		margin-top:5rem;
+	}
+	.gauche img{
+		margin-left: 13%;
+	}
+	.comp-div{
+		margin-left: -15rem;
+	}
+}
+
+/*SMALL PHONES TO SMALL TABLETS FROM 481PX TO 767PX*/
+@media only screen and (max-width: 767px){
+	
+	html{
+		font-size: 0.8rem;
+	}
+	header hr{
+		display: none;
+	}
+	.gauche img{
+		margin-left: 0%;
+	}
+	.apropos{
+		margin-left: -1rem;
+	}
+	/*RIGHT PART*/
+	.titre-formation{
+		margin-left:2rem ;
+		margin-right: none;
+		
+	}
+}
+
+/*SMALL PHONES FROM 0 TO 480PX*/
+@media only screen and (max-width: 480px){
+	html{
+		font-size: 0.5rem;
+	}
+	.titre-formation{
+		margin-left:1rem ;
+		
+	}
+	.comp-div{
+		max-width: 100%;
+		height: auto;
+		margin-left: -5rem;
+
+	}
+.barre-menu{
+	margin-left: -6rem;
+	margin-top: -3rem;
+}
+}
