@@ -52,6 +52,13 @@ body.dark header label{
 header input{
 	visibility: hidden;
 }
+body.dark .forma-exp span,
+body.dark .titre-formation,
+body.dark h1,
+body.dark #realisation
+{
+	color: #c1df9e;
+}
 
 /*-----------------HEADER------------------*/
 
