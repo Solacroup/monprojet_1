@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="icon" href="/images/favicon.png" type="image/png" />
+	<link rel="shortcut icon" type="image/png" href="/Portfolio/plant.png" />
+	<link rel="stylesheet" href="queries.css">
+	
+	<title>Mon Portfolio</title>
+</head>
+<body>
+	<header>
+		<div class="toggle-container">
+			<input type="checkbox" id="toggle" name="toggle" >
+			<label for="toggle">Dark Mode</label>
+		</div>
+		<div>
+			<nav>
+				<div class="barre-menu">
+					<ul class="menu">
+						<li><a href="#formation">Formation</a></li>
+						<li><a href="#competence">Compétences</a></li>
+						<li><a href="#realisation">Mes Réalisations</a></li>
+						<li><a href="#contact">Contact</a></li>						
+					</ul>
+				</div>
+			</nav>
+			
+		</div>
+		
+	</header>
+	<main>
+		<div class="gauche">
+			<article>
+				<figure>
+					<img src="/Portfolio/pics/id2.jpg" alt="photo de profile">
+				</figure>
+				<div class="apropos">
+					<h3>A propos de moi :</h3>
+					<p>
+						Jeune Rennaise enthousiasmée par l'informatique, j'ai
+						choisi de faire de ma <br> passion mon métier.
+					</p>
+				</div>
+				<div class="ligne-verticale"></div>
+				<div class="messoftskills">
+					<h3>Mes Compétences & Softskills :</h3>
+					<div>
+						<ul>
+							<li>Anglais courant</li>
+							<li>Bonnes capacités rédactionnelles</li>
+							<li>Rigueur</li>
+							<li>Sens de l'écoute</li>
+							<li>Sens de l'organisation</li>
+						</ul>
+					</div>
+				</div>
+					<div class="ligne-verticale"></div>
+					<div class="mesvoyages">
+						<h3>Voyages :</h3>
+						<div class="voy">
+							<ul>
+								<li>Indonésie (Bali)</li>
+								<li>Malte</li>
+								<li>Inde (Rajasthan)</li>
+								<li>Cambodge</li>
+								<li>Thaïlande</li>
+								<li>Canada</li>
+								<li>Etats-Unis</li>
+							</ul>
+						</div>
+						
+
+				</div>
+			</article>	
+		</div>
+		<div class="droite">
+		
+			<div class="main-title">
+				<h1>Morgane Higy</h1>
+				<h3>DEVELOPPEUSE WEB</h3>
+			</div>
+			<hr>
+			<article >
+				<h2 class="titre-formation" id="formation">
+					Formation et Expériences :
+				</h2>
+				<div class="forma-exp">
+					<p><span>2020 - 2021 : </span>Formation Tremplin vers le Numérique</p>
+					<p><span>2018 - 2019 : </span>Saisie de données (nouvellles autobiographiques) pour un particulier</p>
+					<p><span>Octobre 2018 : </span>Participation à un programme de stérilisation d'une colonie de chats errants en Grèce</p>
+					<p><span>2017 : </span>Première année d'études en Podologie</p>
+					<p><span>2016 : </span>Préparation au concours d'entrée en école de Podologie</p>
+					<p><span>2013 - 2015 : </span>Licence 1 Langues Etrangères Appliquées</p>
+					<p><span>2012 : </span>Obtention du Baccalauréat Scientifique</p>
+				</div>
+				
+				<div>
+					
+					<div class="comp-div">
+						<h2 class="comp" id="competence">Compétences en Code :</h2>
+						<ul class="competences">
+							<li><p>C</p><progress value="30" max="100"></progress></li>
+							<li><p>Python</p><progress value="30" max="100"></progress></li>
+							<li><p>Javascript</p><progress value="30" max="100"></progress></li>
+							<li><p>HTML</p><progress value="50" max="100"></progress></li>
+							<li><p>CSS</p><progress value="50" max="100"></progress></li>
+						</ul>
+					</div>
+				</div>
+			</article>
+				
+		</div>	
+		<section class="mesrealisations">
+			<div class="realisations">
+			<hr>
+				<h2 id="realisation">Mes Réalisations : </h2>
+					<div >
+						<figure>
+							<img class="img-centre" src="/Portfolio/pics/iv_header.png" alt="Header Instant Végétal">
+						</figure>
+						<figure>
+							<img class="img-centre"  src="/Portfolio/pics/iv_evenements.png" alt="Instant Végétal partie événements">
+						</figure>
+						<figure>
+							<img class="img-centre" src="/Portfolio/pics/iv_footer.png" alt="Insatnt Végétal Footer">
+						</figure>
+						<hr>
+						<figure>
+							<img class="img-centre" src="/Portfolio/pics/pet-adopt1.png" alt="Pet Adopt Header">
+						</figure>
+						<figure>
+							<img class="img-centre" src="/Portfolio/pics/pet-adopt2.png" alt="Pet Adopt Main">
+						</figure>
+						<hr>
+						<figure>
+							<img class="img-centre" src="/Portfolio/pics/currency_converter.png" alt="Currency Converter">
+						</figure>
+					</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<form>
+			<h2 id="contact">Me Contacter :</h2>
+		  
+			<div id="from">
+			  <label for="name"><span>Votre Nom :</span></label>
+			  
+			  <input type="text" id="name" name="user_name">
+			</div>
+		  
+			<div id="reply">
+			  <label for="mail"><span>Votre Adresse E-mail :</span></label>
+			  
+			  <input type="email" id="mail" name="user_email">
+			</div>
+		  
+			<div id="message">
+			  <label for="msg"><span>Votre Message :</span></label>
+			  
+			  <textarea id="msg" name="user_message"></textarea>
+			</div>
+		  
+			<div class="button">
+			  <button class="btn" type="submit">Poster le message</button>
+			</div>
+		  </form>
+	</footer>
+	<script src="script.js"></script>	
+</body>
+</html>
