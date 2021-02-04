@@ -45,7 +45,7 @@ header label{
 	user-select: none;
 	transition: background 0.3s linear;
 }
-body.dark label{
+body.dark header label{
 	background-color: #e4ebdd;
 	color: #555555;
 }
