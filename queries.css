@@ -20,7 +20,6 @@
 	.titre-formation{
 		margin-top: 15rem;
 		margin-left:5rem ;
-		margin-right: none;
 	}
 	.forma-exp{
 		margin-left: 10%;
@@ -32,7 +31,6 @@
 	}
 	.realisations h2{
 		padding-top: 5rem;
-		background-color: none;
 	}
 	.img-centre{
 		margin-left: 10%;
@@ -95,7 +93,6 @@ textarea{
 	/*RIGHT PART*/
 	.titre-formation{
 		margin-left:2rem ;
-		margin-right: none;
 		
 	}
 }
