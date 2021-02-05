@@ -351,6 +351,10 @@ textarea{
 	margin-right: 10rem;
 	border: none;
 }
+input:focus,
+textarea:focus{
+	outline: none;
+}
 input{
 	height:2rem;
 	border-radius: 2rem;
